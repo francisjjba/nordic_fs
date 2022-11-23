@@ -1,6 +1,5 @@
-import {counter} from "./app"
+const  title=document.createElement('h3')
+title.textContent='Webpack made easy!'
 
-const add=(a,b)=>a+b;
-
-add()
-counter();
+const page=document.querySelector('body')
+page.append(title)
